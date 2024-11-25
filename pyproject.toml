@@ -1,0 +1,14 @@
+[project]
+name = "bot1"
+version = "0.1.0"
+description = "bot1"
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
+]
+plugins = [ "nonebot_plugin_apscheduler", "nonebot_plugin_saa", "nonebot_plugin_date_name"]
+plugin_dirs = ['bot1/plugins']
+builtin_plugins = ["echo"]
