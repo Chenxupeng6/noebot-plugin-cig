@@ -1,4 +1,4 @@
-# bot1
+# 这是一个服务于星际公民玩家获取ID的bot
 
 ## How to start
 
